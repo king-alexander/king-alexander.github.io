@@ -29,7 +29,7 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 # Point to git ref while master branch remains under active development.
-remote_theme: jekyll/minima@bf93f98
+remote_theme: jekyll/minima@bf9ef98
 minima:
   skin: solarized-light
 

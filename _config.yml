@@ -28,6 +28,8 @@ github_username: king-alexander
 theme: minima
 plugins:
   - jekyll-feed
+minima:
+  skin: solarized-light
 
 # Exclude from processing.
 # The following items will not be processed, by default.

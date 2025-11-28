@@ -25,9 +25,11 @@ url: "https://alexanderlking.com" # the base hostname & protocol for your site, 
 github_username: king-alexander 
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+# Point to git ref while master branch remains under active development.
+remote_theme: jekyll/minima@bf93f98
 minima:
   skin: solarized-light
 
